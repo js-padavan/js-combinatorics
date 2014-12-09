@@ -339,7 +339,7 @@
         if (nelem < 1) throw new RangeError;
         var base = ary.length,
                 size = Math.pow(base, nelem);
-        if (size > Math.pow(2,32)) throw new RangeError;
+        // if (size > Math.pow(2,32)) throw new RangeError;
         var sizeOf = function() {
                 return size;
             },
